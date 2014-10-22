@@ -15,10 +15,21 @@
     }
   ],
   "license": "MIT",
+  "keywords": [
+    "gulp",
+    "bundle",
+    "bundles",
+    "bundling",
+    "assets",
+    "asset",
+    "gulp-bundle-assets",
+    "express",
+    "middleware"
+  ],
   "dependencies": {
   },
   "devDependencies": {
-    "gulp": "3.8.7",
+    "gulp": "3.8.8",
     "load-common-gulp-tasks": "0.3.2",
     "should": "4.0.4",
     "sinon": "1.10.3"
