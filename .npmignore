@@ -4,4 +4,4 @@
 *.orig
 /target/coverage
 .coveralls.yml
-/bower_components/
+/examples/
