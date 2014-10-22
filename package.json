@@ -2,10 +2,7 @@
   "name": "gulp-bundle-assets-express-middleware",
   "version": "0.0.0",
   "description": "",
-  "scripts": {
-    "start": "node index.js",
-    "test": "gulp ci"
-  },
+  "main": "index.js",
   "author": {
     "name": "Chris Montgomery"
   },
@@ -29,9 +26,5 @@
   "dependencies": {
   },
   "devDependencies": {
-    "gulp": "3.8.8",
-    "load-common-gulp-tasks": "0.3.2",
-    "should": "4.0.4",
-    "sinon": "1.10.3"
   }
 }
