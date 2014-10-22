@@ -17,8 +17,8 @@ app.use(bodyParser.urlencoded());
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-// configure "bundle" view object on every response
-app.use(gulpBundleAssets(path.join(__dirname, 'bundle.result.json')));
+// configure "bundle" view object on every response to contain the contents of "bundle.result.json"
+app.use(gulpBundleAssets());
 
 app.use('/', routes);
 

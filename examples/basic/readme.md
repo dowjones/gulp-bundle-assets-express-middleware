@@ -50,11 +50,11 @@ which gives us a `bundle.result.json` file that looks like this:
 
 ### Step 2: Consume
 
-Next, we configure `gulp-bundle-assets-express-middleware` to attach the object in `bundle.result.json` to
-every view model under the property `bundle`.
+Next, we run `gulp-bundle-assets-express-middleware` to attach `bundle.result.json` to every view model under
+the property `bundle`.
 
 ```js
-app.use(gulpBundleAssets(path.join(__dirname, 'bundle.result.json')));
+app.use(gulpBundleAssets());
 ```
 
 ### Step 3: Write

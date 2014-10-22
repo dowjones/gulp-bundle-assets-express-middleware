@@ -1,6 +1,10 @@
+var path = require('path');
+var stack = require('callsite');
+
 module.exports = function (resultPath) {
   if (!resultPath) {
-    throw Error('gulp-bundle-assets-express-middleware:', 'bundle.result.json path is required');
+    var requestor = stack()[1].getFileName();
+    resultPath = path.join(path.dirname(requestor), 'bundle.result.json');
   }
   return function (req, res, next) {
     var oldRender = res.render;
