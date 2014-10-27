@@ -29,6 +29,23 @@ app.listen(3000);
 
 [See here for a detailed explanation](examples/basic)
 
+## API
+
+#### `resultPath`
+
+`Optional`
+
+Type: `string`
+
+Default: `<fully qualified path of file where call was made from>/bundle.result.json`
+ 
+If your app is not in the same directory as your `bundle.result.json`, simply provide the fully qualified path to
+its location, e.g.:
+ 
+```js
+app.use(gulpBundleAssets(path.join(__dirname, '../bundle.result.json')));
+```
+
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
