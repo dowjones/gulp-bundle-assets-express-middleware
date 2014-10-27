@@ -33,8 +33,6 @@ app.listen(3000);
 
 #### `resultPath`
 
-`Optional`
-
 Type: `string`
 
 Default: `<fully qualified path of file where call was made from>/bundle.result.json`
