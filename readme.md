@@ -46,7 +46,7 @@ app.use(gulpBundleAssets(path.join(__dirname, '../bundle.result.json')));
 
 ## License
 
-[MIT](http://opensource.org/licenses/MIT)
+[MIT](LICENSE)
 
 [npm-image]: http://img.shields.io/npm/v/gulp-bundle-assets-express-middleware.svg
 [npm-url]: https://npmjs.org/package/gulp-bundle-assets-express-middleware
