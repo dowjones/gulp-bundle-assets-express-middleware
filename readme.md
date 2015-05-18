@@ -1,6 +1,6 @@
-# gulp-bundle-assets-express-middleware
+# gulp-bundle-assets-express-middleware [![NPM version][npm-image]][npm-url] 
 
-> [Express](http://expressjs.com/) middleware for [gulp-bundle-assets](https://github.com/areusjs/gulp-bundle-assets)
+> [Express](http://expressjs.com/) middleware for [gulp-bundle-assets](https://github.com/dowjones/gulp-bundle-assets)
 
 ## Install
 
@@ -47,3 +47,6 @@ app.use(gulpBundleAssets(path.join(__dirname, '../bundle.result.json')));
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
+
+[npm-image]: http://img.shields.io/npm/v/gulp-bundle-assets-express-middleware.svg
+[npm-url]: https://npmjs.org/package/gulp-bundle-assets-express-middleware
